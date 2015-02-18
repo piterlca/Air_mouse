@@ -15,6 +15,7 @@ typedef struct I2C_desc{
 	volatile bool IsDataTransmitted;
 	volatile bool IsDataReceived;
 	volatile bool TimeoutFlag;
+	bool IsEnabled;
 	unsigned char OutputBuffer[6];
 	unsigned char InputBuffer[2];
 	LDD_TError ErrorStatus;
@@ -28,7 +29,6 @@ void I2C_send(int NumberOfBytes, bool SendStop);
 
 void I2C_recv(int NumberOfBytes, bool SendStop);
 
-
-
+void I2C_reset(I2C_desc* devicePtr);
 
 #endif /* I2C_UTILS_H_ */

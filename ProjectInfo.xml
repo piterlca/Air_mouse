@@ -35,65 +35,65 @@
     <FLASHsize>128k</FLASHsize>
   </PROCESSOR>
   <PATHS>
-    <LinkerCommandFile>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <LinkerCommandFile>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
       <Path>C:\freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
       <Path>C:\freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\iofiles\</Path>
-      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\</Path>
-      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\</Path>
+      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\</Path>
+      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\</Path>
     </IncludePaths>
     <SourceCodePaths>
-      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\</Path>
-      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Project_Settings\Startup_Code\</Path>
-      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\</Path>
-      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\Low level drivers\</Path>
+      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\</Path>
+      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\</Path>
+      <Path>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\Low level drivers\</Path>
     </SourceCodePaths>
   </PATHS>
   <FILES>
     <GeneratedCs>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\CS1.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\Cpu.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\CsIO1.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\I2C0.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\IO1.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\PE_LDD.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\RNG1.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\TI1.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\TU1.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\TimerIntLdd1.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\Vectors.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\WAIT1.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Project_Settings\Startup_Code\__arm_end.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Project_Settings\Startup_Code\__arm_start.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\Events.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\Low level drivers\I2C_utils.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\MPU-6050.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\main.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\program.c</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\sa_mtb.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\CS1.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\CsIO1.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\I2C0.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\IO1.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\RNG1.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\TI1.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\TU1.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\TimerIntLdd1.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\WAIT1.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Project_Settings\Startup_Code\__arm_end.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Project_Settings\Startup_Code\__arm_start.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\Events.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\Low level drivers\I2C_utils.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\MPU-6050.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\main.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\program.c</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\sa_mtb.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\CS1.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\Cpu.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\CsIO1.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\I2C0.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\IO1.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\IO_Map.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\PE_Const.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\PE_Error.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\PE_LDD.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\PE_Types.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\RNG1.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\TI1.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\TU1.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\TimerIntLdd1.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Generated_Code\WAIT1.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Project_Headers\bme.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Project_Settings\Startup_Code\runtime_configuration.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\Events.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\Low level drivers\I2C_utils.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\MPU-6050.h</PathName>
-      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\MPU-6050\Sources\program.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\CS1.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\CsIO1.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\I2C0.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\IO1.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\RNG1.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\TI1.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\TU1.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\TimerIntLdd1.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Generated_Code\WAIT1.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Project_Headers\bme.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Project_Settings\Startup_Code\runtime_configuration.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\Events.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\Low level drivers\I2C_utils.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\MPU-6050.h</PathName>
+      <PathName>C:\Users\Piotr\workspace\Kinetis workspace\Active projects\Air_mouse\Sources\program.h</PathName>
       <PathName>C:\freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\iofiles\MKL25Z4.h</PathName>
       <PathName>C:\freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\ADC_PDD.h</PathName>
       <PathName>C:\freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\CMP_PDD.h</PathName>
