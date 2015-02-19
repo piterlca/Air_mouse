@@ -20,7 +20,7 @@ void program()
 	
 	I2C_init();
 	
-	MPU_init(FALSE, TRUE, 0x20);
+	MPU_init(TRUE, TRUE, 0x20);
 	
 	TI1_Enable();
 

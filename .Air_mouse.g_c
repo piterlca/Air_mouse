@@ -128,7 +128,7 @@
     </GenFiles>
     <SignalListFile>Documentation\Air_mouse_SIGNALS.txt</SignalListFile>
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>28</ProjectModificationStamp>
+    <ProjectModificationStamp>30</ProjectModificationStamp>
   </Options>
   <CpuID_2>
     <Generated>true</Generated>
@@ -877,8 +877,8 @@
       <GenComponentVersion>01.187</GenComponentVersion>
       <GenDriverVersion>01.12</GenDriverVersion>
       <GenEventModule>Events</GenEventModule>
-      <HeaderAge>1179800768</HeaderAge>
-      <CodeAge>1179800768</CodeAge>
+      <HeaderAge>1179886877</HeaderAge>
+      <CodeAge>1179886877</CodeAge>
       <AsemblAge>-1</AsemblAge>
       <GenNumMethods>36</GenNumMethods>
       <Init>true</Init>

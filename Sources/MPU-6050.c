@@ -26,17 +26,14 @@ void MPU_init(bool AccOn, bool GyroOn, uint8_t SampleRateDivider)
 	if(	(MPU6050.AccOn = AccOn) == TRUE)
 	{
 		MPU6050.AccData = calloc(	1, sizeof(MPUData)	);
-		printf("Accelerometer:\n");
 	}
 	
 	if(	(MPU6050.GyroOn = GyroOn) == TRUE)	
 	{
 		MPU6050.GyroData = calloc(	1, sizeof(MPUData)	);
-		printf("Gyroscope:\n");
 	}
 	
 
-	
 	I2C0_SelectSlaveDevice(I2C0.ID, LDD_I2C_ADDRTYPE_7BITS, MPU6050.ID);
 
 	I2C0.InputBuffer[0] = PWR_MGMT_1;
@@ -72,8 +69,8 @@ void MPU_cycle()
 
 			case REPORT:
 			{
-				if(MPU6050.AccOn == TRUE)	Print(MPU6050.AccData);
-				if(MPU6050.GyroOn == TRUE)	Print(MPU6050.GyroData);
+				if(MPU6050.AccOn == TRUE)	UART_print(MPU6050.AccData);
+				if(MPU6050.GyroOn == TRUE)	UART_print(MPU6050.GyroData);
 				last_state = state;
 				state = IDLE;
 				break;
@@ -109,9 +106,11 @@ void MPU_Gyroscope()
 	ConvertToStructure(I2C0.OutputBuffer, MPU6050.GyroData);
 }
 
-void Print(MPUData* sensorData)
+void UART_print(MPUData* sensorData)
 {
-	printf("X=%d\tY=%d\tZ=%d\n", sensorData->x, sensorData->y, sensorData->z);	
+	if(sensorData == MPU6050.AccData)	printf("A");
+	else if(sensorData == MPU6050.GyroData) 	printf("G");
+	printf("%d %d %d\n", sensorData->x, sensorData->y, sensorData->z);	
 }
 
 void ConvertToStructure(unsigned char* RawData, MPUData* mpudata)
